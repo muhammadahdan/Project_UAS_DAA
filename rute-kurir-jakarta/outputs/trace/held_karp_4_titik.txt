@@ -1,0 +1,60 @@
+# Trace Held-Karp - depo + 4 titik antar dari skenario S1
+# Indeks lokal: 0=depo, 1=Sunter, 2=Cempaka Putih, 3=Kebon Jeruk, 4=Cawang
+
+Matriks jarak terpendek (km):
+     0.00    4.34    3.31   14.41   13.48
+     4.34    0.00    7.65   18.75   17.82
+     3.31    7.65    0.00   17.48   14.48
+    14.41   18.75   17.48    0.00   19.42
+    13.48   17.82   14.48   19.42    0.00
+
+Pembaruan tabel DP (hanya saat nilai membaik):
+  dp[{1,2}, akhir=2] = 11.988  (dari akhir=1)
+  dp[{1,3}, akhir=3] = 23.091  (dari akhir=1)
+  dp[{1,4}, akhir=4] = 22.156  (dari akhir=1)
+  dp[{1,2}, akhir=1] = 10.959  (dari akhir=2)
+  dp[{2,3}, akhir=3] = 20.793  (dari akhir=2)
+  dp[{2,4}, akhir=4] = 17.786  (dari akhir=2)
+  dp[{1,2,3}, akhir=3] = 29.711  (dari akhir=1)
+  dp[{1,2,4}, akhir=4] = 28.776  (dari akhir=1)
+  dp[{1,2,3}, akhir=3] = 29.471  (dari akhir=2)
+  dp[{1,2,4}, akhir=4] = 26.464  (dari akhir=2)
+  dp[{1,3}, akhir=1] = 33.165  (dari akhir=3)
+  dp[{2,3}, akhir=2] = 31.896  (dari akhir=3)
+  dp[{3,4}, akhir=4] = 33.829  (dari akhir=3)
+  dp[{1,2,3}, akhir=2] = 40.814  (dari akhir=1)
+  dp[{1,3,4}, akhir=4] = 50.982  (dari akhir=1)
+  dp[{1,2,3}, akhir=2] = 40.574  (dari akhir=3)
+  dp[{1,3,4}, akhir=4] = 42.507  (dari akhir=3)
+  dp[{1,2,3}, akhir=1] = 39.545  (dari akhir=2)
+  dp[{2,3,4}, akhir=4] = 46.372  (dari akhir=2)
+  dp[{2,3,4}, akhir=4] = 40.209  (dari akhir=3)
+  dp[{1,2,3,4}, akhir=4] = 57.362  (dari akhir=1)
+  dp[{1,2,3,4}, akhir=4] = 55.050  (dari akhir=2)
+  dp[{1,2,3,4}, akhir=4] = 48.887  (dari akhir=3)
+  dp[{1,4}, akhir=1] = 31.295  (dari akhir=4)
+  dp[{2,4}, akhir=2] = 27.954  (dari akhir=4)
+  dp[{3,4}, akhir=3] = 32.894  (dari akhir=4)
+  dp[{1,2,4}, akhir=2] = 38.944  (dari akhir=1)
+  dp[{1,3,4}, akhir=3] = 50.047  (dari akhir=1)
+  dp[{1,2,4}, akhir=2] = 36.632  (dari akhir=4)
+  dp[{1,3,4}, akhir=3] = 41.572  (dari akhir=4)
+  dp[{1,2,4}, akhir=1] = 35.603  (dari akhir=2)
+  dp[{2,3,4}, akhir=3] = 45.437  (dari akhir=2)
+  dp[{1,2,4}, akhir=1] = 35.603  (dari akhir=4)
+  dp[{2,3,4}, akhir=3] = 37.202  (dari akhir=4)
+  dp[{1,2,3,4}, akhir=3] = 54.355  (dari akhir=1)
+  dp[{1,2,3,4}, akhir=3] = 54.115  (dari akhir=2)
+  dp[{1,2,3,4}, akhir=3] = 45.880  (dari akhir=4)
+  dp[{1,3,4}, akhir=1] = 51.646  (dari akhir=3)
+  dp[{2,3,4}, akhir=2] = 50.377  (dari akhir=3)
+  dp[{1,3,4}, akhir=1] = 51.646  (dari akhir=4)
+  dp[{2,3,4}, akhir=2] = 48.305  (dari akhir=4)
+  dp[{1,2,3,4}, akhir=2] = 59.295  (dari akhir=1)
+  dp[{1,2,3,4}, akhir=2] = 59.055  (dari akhir=3)
+  dp[{1,2,3,4}, akhir=2] = 56.983  (dari akhir=4)
+  dp[{1,2,3,4}, akhir=1] = 55.954  (dari akhir=2)
+
+Tur optimum (indeks lokal): [0, 3, 4, 2, 1] + kembali ke 0
+Biaya optimum: 60.293 km
+Nama: Depo Kemayoran -> Kebon Jeruk -> Cawang -> Cempaka Putih -> Sunter -> Depo Kemayoran

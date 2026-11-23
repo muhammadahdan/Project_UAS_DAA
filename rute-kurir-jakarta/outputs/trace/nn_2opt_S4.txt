@@ -1,0 +1,13 @@
+# Trace Nearest Neighbor + 2-opt - skenario S4 (25 titik antar)
+
+Tur NN (indeks lokal): [0, 3, 22, 23, 24, 1, 18, 19, 20, 21, 7, 6, 8, 5, 4, 13, 25, 14, 12, 16, 17, 11, 10, 9, 15, 2]
+Biaya NN: 165.087 km
+
+Langkah 2-opt:
+  pass 1: balik segmen posisi 15..23 (ganti sisi 4-13 & 9-15 -> 4-9 & 13-15), delta=-2.611
+  pass 1: balik segmen posisi 18..20 (ganti sisi 11-17 & 12-14 -> 11-12 & 17-14), delta=-4.152
+  pass 2: balik segmen posisi 12..14 (ganti sisi 6-8 & 4-9 -> 6-4 & 8-9), delta=-2.582
+
+Tur akhir: [0, 3, 22, 23, 24, 1, 18, 19, 20, 21, 7, 6, 4, 5, 8, 9, 10, 11, 12, 16, 17, 14, 25, 13, 15, 2]
+Biaya akhir: 155.742 km
+Pass: 3 | Pertukaran: 3

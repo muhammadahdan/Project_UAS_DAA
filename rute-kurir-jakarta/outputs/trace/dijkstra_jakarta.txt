@@ -1,0 +1,30 @@
+# Trace Dijkstra dari Depo Kemayoran pada graf Jakarta (28 baris pertama)
+
+POP  Depo Kemayoran (d=0.000)
+  relax Monas: inf -> 4.037
+  relax Sunter: inf -> 4.339
+  relax Cempaka Putih: inf -> 3.310
+  relax Senen: inf -> 1.731
+  relax Mangga Dua: inf -> 5.573
+POP  Senen (d=1.731)
+  relax Menteng: inf -> 5.529
+  relax Cikini: inf -> 4.175
+POP  Cempaka Putih (d=3.310)
+  relax Kelapa Gading: inf -> 8.601
+  relax Rawamangun: inf -> 7.177
+POP  Monas (d=4.037)
+  relax Tanah Abang: inf -> 6.684
+POP  Cikini (d=4.175)
+  relax Menteng: 5.529 -> 5.378
+  relax Manggarai: inf -> 7.611
+POP  Sunter (d=4.339)
+  relax Tanjung Priok: inf -> 8.925
+  relax Ancol: inf -> 9.279
+POP  Menteng (d=5.378)
+POP  Mangga Dua (d=5.573)
+  relax Kota Tua: inf -> 8.198
+  relax Pluit: inf -> 13.380
+  relax Ancol: 9.279 -> 8.645
+POP  Tanah Abang (d=6.684)
+  relax Grogol: inf -> 11.783
+  relax Slipi: inf -> 9.720

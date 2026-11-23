@@ -1,0 +1,65 @@
+..F.............................F...FFFF.                                [100%]
+=================================== FAILURES ===================================
+________________ test_TC23_cli_stops_tidak_valid_kode_keluar_2 _________________
+tests/test_cli.py:15: in test_TC23_cli_stops_tidak_valid_kode_keluar_2
+    assert main(["--stops", "3,999", "--method", "nn2opt"]) == 2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rute/cli.py:48: in main
+    r = solve(g, depot, stops, a.method)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rute/tsp.py:151: in solve
+    d, prevs = build_matrix(graph, nodes)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+rute/tsp.py:24: in build_matrix
+    d[i][j] = dist[t]
+              ^^^^^^^
+E   KeyError: 999
+__________________________ test_TC12_nol_titik_antar ___________________________
+tests/test_tsp.py:71: in test_TC12_nol_titik_antar
+    r = solve(jakarta, 0, [], "held_karp")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rute/tsp.py:156: in solve
+    cost, tour = held_karp(d)
+                 ^^^^^^^^^^^^
+rute/tsp.py:64: in held_karp
+    best, bl = min((dp[full][l] + d[l + 1][0], l) for l in range(m))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   ValueError: min() iterable argument is empty
+______________________ test_TC16_titik_duplikat_diabaikan ______________________
+tests/test_tsp.py:99: in test_TC16_titik_duplikat_diabaikan
+    assert sorted(a.order) == sorted(b.order) and math.isclose(a.cost_km, b.cost_km)
+E   assert ([0, 3, 3, 8, 8, 15] == [0, 3, 8, 15]
+E     
+E     At index 2 diff: 3 != 8
+E     Left contains 2 more items, first extra item: 8
+E     Use -v to get more diff)
+________________ test_TC17_depo_di_dalam_daftar_titik_diabaikan ________________
+tests/test_tsp.py:105: in test_TC17_depo_di_dalam_daftar_titik_diabaikan
+    assert r.order.count(0) == 1 and sorted(r.order) == [0, 3, 8]
+E   AssertionError: assert (2 == 1)
+E    +  where 2 = <built-in method count of list object at 0x7f6d6c628f40>(0)
+E    +    where <built-in method count of list object at 0x7f6d6c628f40> = [0, 8, 3, 0].count
+E    +      where [0, 8, 3, 0] = Route(method='held_karp', order=[0, 8, 3, 0], cost_km=30.33, road_path=[0, 1, 8, 1, 6, 5, 3, 5, 0], runtime_s=0.00013470899997969354, extra={}).order
+______________________ test_TC18_id_tidak_dikenal_ditolak ______________________
+tests/test_tsp.py:111: in test_TC18_id_tidak_dikenal_ditolak
+    solve(jakarta, 0, [3, 999], "held_karp")
+rute/tsp.py:151: in solve
+    d, prevs = build_matrix(graph, nodes)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+rute/tsp.py:24: in build_matrix
+    d[i][j] = dist[t]
+              ^^^^^^^
+E   KeyError: 999
+____________________ test_TC19_titik_tak_terjangkau_ditolak ____________________
+tests/test_tsp.py:118: in test_TC19_titik_tak_terjangkau_ditolak
+    with pytest.raises(ValueError, match="tidak terjangkau"):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE ValueError
+=========================== short test summary info ============================
+FAILED tests/test_cli.py::test_TC23_cli_stops_tidak_valid_kode_keluar_2 - Key...
+FAILED tests/test_tsp.py::test_TC12_nol_titik_antar - ValueError: min() itera...
+FAILED tests/test_tsp.py::test_TC16_titik_duplikat_diabaikan - assert ([0, 3,...
+FAILED tests/test_tsp.py::test_TC17_depo_di_dalam_daftar_titik_diabaikan - As...
+FAILED tests/test_tsp.py::test_TC18_id_tidak_dikenal_ditolak - KeyError: 999
+FAILED tests/test_tsp.py::test_TC19_titik_tak_terjangkau_ditolak - Failed: DI...
+6 failed, 35 passed in 0.17s

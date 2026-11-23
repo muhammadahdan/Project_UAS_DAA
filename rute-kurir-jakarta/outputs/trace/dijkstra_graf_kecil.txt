@@ -1,0 +1,14 @@
+# Trace Dijkstra - graf contoh 4 simpul (bisa diverifikasi dengan tangan)
+# Sisi: A-B=4, A-C=1, C-B=2, B-D=1, C-D=5 ; sumber = A
+
+POP  A (d=0.000)
+  relax B: inf -> 4.000
+  relax C: inf -> 1.000
+POP  C (d=1.000)
+  relax B: 4.000 -> 3.000
+  relax D: inf -> 6.000
+POP  B (d=3.000)
+  relax D: 6.000 -> 4.000
+POP  D (d=4.000)
+
+Hasil akhir: A=0, B=3, C=1, D=4
