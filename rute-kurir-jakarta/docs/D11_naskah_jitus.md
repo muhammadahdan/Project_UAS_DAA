@@ -1,6 +1,6 @@
 ---
 title: "Optimasi Rute Kurir Last-Mile di Jakarta Menggunakan Kombinasi Algoritma Dijkstra, Held-Karp, dan Nearest Neighbor dengan Perbaikan 2-opt"
-author: "[Nama Penulis 1], [Nama Penulis 2], [Nama Penulis 3]"
+author: "[Muhammad Ahdanierrofie Ikhsan], [Muhammad Lutfi Hidayat]"
 date: "[Afiliasi: Program Studi Informatika, Universitas Pembangunan Jaya] · [email penulis korespondensi]"
 ---
 
