@@ -1,7 +1,7 @@
 ---
 title: "Laporan Teknis: Optimasi Rute Kurir Last-Mile Jakarta dengan Dijkstra, Held-Karp, dan Nearest Neighbor + 2-opt"
 subtitle: "UAS INF203 Desain dan Analisis Algoritma, Semester Gasal 2025/2026"
-author: "[NAMA KELOMPOK] — [NAMA – NIM] · [NAMA – NIM] · [NAMA – NIM]"
+author: "[Kelompok 1] — [Muhammad Ahdanierrofie Ikhsan – 2025071008] · [Muhammad Lutfi Hidayat – 2025071009]"
 date: "November 2026"
 ---
 
