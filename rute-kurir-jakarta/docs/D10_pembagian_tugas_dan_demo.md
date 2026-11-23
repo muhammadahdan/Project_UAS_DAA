@@ -2,7 +2,7 @@
 
 Slide: `D10_slide_presentasi.pptx` (14 slide, catatan pembicara di tiap slide).
 
-## 1. Pembagian tugas (ISI SESUAI KONTRIBUSI NYATA KELOMPOK)
+## 1. Pembagian tugas
 
 Dosen akan meminta **setiap anggota** menjelaskan kontribusi dan keputusan algoritmiknya secara individual, jadi bagian ini harus sesuai kenyataan. Usulan awal untuk 3 anggota:
 
