@@ -8,10 +8,9 @@ Dosen akan meminta **setiap anggota** menjelaskan kontribusi dan keputusan algor
 
 | Anggota | Tanggung jawab utama | Berkas | Harus siap menjelaskan |
 |---|---|---|---|
-| [Anggota 1 – NIM] | Graf, Dijkstra, dataset, matriks jarak | `rute/graph.py`, `rute/dijkstra.py`, `rute/data.py`, D01, D02 | Mengapa heap, mengapa bobot ≥ 0, trace Dijkstra, kompleksitas |
-| [Anggota 2 – NIM] | Held-Karp, brute force pembanding, validasi, bug | `rute/tsp.py` (Held-Karp, validasi), `tests/`, D08 | Rumus DP, tabel `dp`/`par`, mengapa O(k² 2ᵏ), 4 bug dan perbaikannya |
-| [Anggota 3 – NIM] | NN, 2-opt, eksperimen, visualisasi | `rute/tsp.py` (NN, 2-opt), `scripts/`, D06, D07 | Rumus delta 2-opt, optimum lokal, hasil eksperimen |
+| [Muhammad Ahdanierrofie Ikhsan – 2025071008] | Graf, Dijkstra, dataset, matriks jarak | `rute/graph.py`, `rute/dijkstra.py`, `rute/data.py`, D01, D02 | Mengapa heap, mengapa bobot ≥ 0, trace Dijkstra, kompleksitas | NN, 2-opt, eksperimen, visualisasi | `rute/tsp.py` (NN, 2-opt), `scripts/`, D06, D07 | Rumus delta 2-opt, optimum lokal, hasil eksperimen |
 | Bersama | Laporan D09, slide D10, artikel D11–D12, README | `docs/` | Seluruh alur solusi |
+| [Muhammad Lutfi Hidayat – 2025071009] | Held-Karp, brute force pembanding, validasi, bug | `rute/tsp.py` (Held-Karp, validasi), `tests/`, D08 | Rumus DP, tabel `dp`/`par`, mengapa O(k² 2ᵏ), 4 bug dan perbaikannya | 
 
 ## 2. Skenario live demo (±8 menit)
 
