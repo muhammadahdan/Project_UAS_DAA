@@ -5,10 +5,10 @@
 | Item | URL | Tanggal | Screenshot |
 |---|---|---|---|
 | Artikel Medium (naskah: `D12_artikel_medium.md`) | [ISI URL] | [ISI] | `docs/bukti/medium.png` |
-| LinkedIn [Anggota 1] | [ISI URL] | [ISI] | `docs/bukti/linkedin_1.png` |
-| LinkedIn [Anggota 2] | [ISI URL] | [ISI] | `docs/bukti/linkedin_2.png` |
-| LinkedIn [Anggota 3] | [ISI URL] | [ISI] | `docs/bukti/linkedin_3.png` |
+| LinkedIn [Muhammad Ahdanierrofie Ikhsan] | [ISI URL] | [ISI] | `docs/bukti/linkedin_1.png` |
+| LinkedIn [Muhammad Lutfi Hidayat] | [ISI URL] | [ISI] | `docs/bukti/linkedin_2.png` |
 | Repository GitHub | [ISI URL] | [ISI] | – |
+Notes: Kami belum mengupload ke LinkedIn.
 
 ## 2. Template portofolio LinkedIn (satu per anggota, ubah sesuai peran pribadi)
 
