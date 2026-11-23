@@ -1,8 +1,6 @@
 # Cara Kami Memangkas Jarak Kurir 37%: Dijkstra, Held-Karp, dan 2-opt di Jakarta
 
-> **Catatan sebelum publikasi:** ganti `[NAMA ...]`, `[USERNAME]`, dan tautan repo. Tambahkan foto/profil anggota bila perlu. Pastikan Anda tidak mencantumkan data pribadi.
-
-*Oleh [NAMA KELOMPOK]: [Anggota 1] (Dijkstra dan data), [Anggota 2] (Held-Karp dan pengujian), [Anggota 3] (Nearest Neighbor, 2-opt, dan eksperimen). Proyek UAS Desain dan Analisis Algoritma, [UNIVERSITAS].*
+*Oleh [Kelompok 1]: [Muhammad Ahdanierrofie Ikhsan] (Dijkstra dan data, Nearest Neighbor, 2-opt, dan eksperimen), [Muhammad Lutfi Hidayat] (Held-Karp dan pengujian). Proyek UAS Desain dan Analisis Algoritma, [UNIVERSITAS].*
 
 ---
 
