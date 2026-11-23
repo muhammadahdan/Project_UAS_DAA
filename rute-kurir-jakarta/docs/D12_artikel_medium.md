@@ -53,7 +53,7 @@ Catatan: pada 14 dan 15 titik, instans yang kami uji hanya 3 dan 2 (Held-Karp ma
 
 ## Coba sendiri
 
-Kode, data, tes, dan laporan lengkap: **https://github.com/[USERNAME]/rute-kurir-jakarta**
+Kode, data, tes, dan laporan lengkap: **https://github.com/muhammadahdan/rute-kurir-jakarta**
 
 ```bash
 pip install -r requirements.txt
