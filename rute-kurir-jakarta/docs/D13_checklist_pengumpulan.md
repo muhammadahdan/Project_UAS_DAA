@@ -16,17 +16,6 @@
 | D10 | Slide, pembagian tugas, skenario demo | Siap (**sesuaikan pembagian tugas dengan kenyataan**) |
 | D11 | Naskah ilmiah | Draf siap, **pindahkan ke template JITUS resmi dan tambah penelitian terkait 2020–2026** |
 
-**Yang harus Anda lakukan sendiri sebelum mengumpulkan:**
-
-- [ ] Ganti semua placeholder `[NAMA ...]`, `[NIM]`, `[USERNAME]`, `[UNIVERSITAS]` (cari dengan `grep -rn "\[NAMA\|\[USERNAME\|\[ISI" .`)
-- [ ] Isi nomor Week algoritma di D02 sesuai RPS
-- [ ] Buat repo GitHub, push (lihat bawah), dan tempel URL repo di D09, D12, README
-- [ ] Publikasikan artikel Medium (D12), isi URL dan tangkapan layar
-- [ ] Setiap anggota unggah portofolio LinkedIn, isi URL dan tangkapan layar (D12)
-- [ ] Pindahkan D11 ke template JITUS UPJ; tambahkan penelitian terkait yang benar-benar Anda baca
-- [ ] **Setiap anggota membaca kode dan dokumen ini sampai paham**: viva individual akan meminta trace dan modifikasi sederhana
-- [ ] Jalankan ulang `python -m pytest -q` dan `python scripts/run_experiments.py` di komputer Anda
-- [ ] Susun paket LMS: D01–D12, source code, dataset, README, laporan, slide, bukti uji
 
 ## Push ke GitHub
 
