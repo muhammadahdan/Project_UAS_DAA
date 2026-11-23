@@ -12,7 +12,7 @@
 | D06 | Trace dan kompleksitas | Siap |
 | D07 | Analisis komparatif | Siap |
 | D08 | Test plan dan evidence | Siap |
-| D09 | Laporan teknis PDF + petunjuk reproduksi | Siap (isi nama kelompok) |
+| D09 | Laporan teknis PDF + petunjuk reproduksi | Siap (Kelompok 1) |
 | D10 | Slide, pembagian tugas, skenario demo | Siap (**sesuaikan pembagian tugas dengan kenyataan**) |
 | D11 | Naskah ilmiah | Draf siap, **pindahkan ke template JITUS resmi dan tambah penelitian terkait 2020–2026** |
 
