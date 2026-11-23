@@ -4,8 +4,8 @@
 
 | Kode | Item | Status |
 |---|---|---|
-| D01 | Analisis kasus | Siap (isi nama kelompok) |
-| D02 | Matriks masalah–algoritma | Siap (isi nomor Week sesuai RPS) |
+| D01 | Analisis kasus | Siap (Kelompok 1) |
+| D02 | Matriks masalah–algoritma | Siap |
 | D03 | Desain solusi | Siap |
 | D04 | Source code | Siap, 41 tes lulus |
 | D05 | Dataset, input dan output | Siap |
