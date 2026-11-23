@@ -1,7 +1,5 @@
 # D12 – Bukti Publikasi Medium dan Portofolio LinkedIn
 
-Saya (Claude) tidak bisa mempublikasikan ke Medium atau LinkedIn atas nama Anda. Naskah siap pakai ada di sini; **setelah Anda mempublikasikan, isi tabel bukti di bawah.**
-
 ## 1. Bukti publikasi (ISI SETELAH PUBLIKASI)
 
 | Item | URL | Tanggal | Screenshot |
