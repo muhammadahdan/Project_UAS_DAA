@@ -62,8 +62,7 @@ python -m rute.cli --scenario S2 --method auto
 
 ## Kontribusi anggota
 
-- **[Anggota 1]:** graf, Dijkstra, dataset sintetis.
-- **[Anggota 2]:** Held-Karp, validasi masukan, pengujian dan debugging.
-- **[Anggota 3]:** Nearest Neighbor, 2-opt, eksperimen, visualisasi.
+- **[Muhammad Ahdanierrofie Ikhsan]:** graf, Dijkstra, dataset sintetis, Nearest Neighbor, 2-opt, eksperimen, visualisasi.
+- **[Muhammad Lutfi Hidayat]:** Held-Karp, validasi masukan, pengujian dan debugging.
 
 *Referensi: Dijkstra (1959); Held & Karp (1962); Croes (1958); Rosenkrantz, Stearns & Lewis (1977).*
